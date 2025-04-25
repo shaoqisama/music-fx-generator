@@ -10,9 +10,9 @@ const nextConfig = {
     unoptimized: true,
   },
   output: 'export',
-  // Configure for GitHub Pages
-  basePath: process.env.GITHUB_ACTIONS && '/music-fx-generator',
-  assetPrefix: process.env.GITHUB_ACTIONS && '/music-fx-generator',
+  // Configure for GitHub Pages - no conditional, always use the prefix
+  basePath: '/music-fx-generator',
+  assetPrefix: '/music-fx-generator',
 }
 
 export default nextConfig
