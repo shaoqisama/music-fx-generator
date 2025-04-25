@@ -21,7 +21,7 @@ export default function RootLayout({
         <header className="flex items-center justify-between p-4 bg-gray-100">
           <h1 className="text-2xl font-bold">AI Music FX Generator</h1>
           <Image
-            src="/vercel.svg"
+            src="placeholder-logo.svg"
             alt="Vercel Logo"
             className="dark:invert"
             width={100}
